@@ -5,6 +5,7 @@ use Pdo\Mysql;
 
 return [
 
+    /*SE DEBE CONFIGURAR LA CONEXIÓN A LA BASE DE DATOS SIEMPRE EN EL ARCHIVO .env*/
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
