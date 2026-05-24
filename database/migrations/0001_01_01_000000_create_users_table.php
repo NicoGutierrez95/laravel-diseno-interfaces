@@ -17,7 +17,8 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->timestamps();
+            $table->string('avatar'); //campo nuevo para migrar
+            $table->timestamps(); //crea dos columnas created_at y update_at, hora y fecha en la que se realiza un registro o modificación en la tabla
             //table->text(); usado para mas de 255 caracteres
         });
 
